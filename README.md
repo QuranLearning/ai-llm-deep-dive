@@ -9,10 +9,9 @@ Each week has a lesson, a practice notebook you can run in Google Colab with one
 
 ## How the notebooks work
 
-1. Click a **Open in Colab** badge. Colab opens a copy of the notebook from this repo.
-2. Use **File → Save a copy in Drive** so your work is kept.
-3. Each exercise has a starter cell with `TODO`s and a **Check** cell. Solutions are at the bottom of each notebook.
-4. Put your own finished versions in [`my-work/`](my-work/) and commit them; that is the portfolio.
+- `notebooks/` holds the **solved** notebooks: every exercise filled in with working code and already run, so outputs and plots are visible on GitHub. Click a **Open in Colab** badge to run one yourself.
+- `notebooks/exercises/` holds the same notebooks with empty starter cells, if you want to practise writing the code. Each exercise has a **Check** cell that tells you when it is right.
+- In Colab, use **File → Save a copy in Drive** to keep your changes. Put your own experiments in [`my-work/`](my-work/).
 
 Run locally instead: `pip install -r requirements.txt`, then `jupyter lab`.
 
